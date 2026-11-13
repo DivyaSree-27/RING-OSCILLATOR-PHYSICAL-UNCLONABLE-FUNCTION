@@ -2,7 +2,7 @@
 Implementation of a Ring Oscillator Physical Unclonable Function (RO-PUF) on FPGA using Verilog HDL and Xilinx Vivado.
 # Ring Oscillator PUF on FPGA
 
-## 🔐 Ring Oscillator Physical Unclonable Function using Verilog
+##  Ring Oscillator Physical Unclonable Function using Verilog
 
 This project implements a **Ring Oscillator Physical Unclonable Function (RO-PUF)** on an FPGA using **Verilog HDL** and **Xilinx Vivado**.
 
@@ -10,7 +10,7 @@ The main objective is to generate a unique digital response from the inherent ma
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 A **Physical Unclonable Function (PUF)** is a hardware security primitive that uses the physical variations introduced during semiconductor manufacturing to generate a unique response.
 
@@ -26,7 +26,7 @@ By performing multiple comparisons, an **8-bit PUF response** can be generated.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Design a Ring Oscillator PUF using Verilog HDL.
 - Generate oscillations using ring oscillator structures.
@@ -40,7 +40,7 @@ By performing multiple comparisons, an **8-bit PUF response** can be generated.
 
 ---
 
-## 🧠 Why PUF?
+##  Why PUF?
 
 Traditional digital systems store secret keys in memory.
 
@@ -66,7 +66,7 @@ Manufacturing Variations
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 The overall architecture consists of:
 
@@ -113,7 +113,7 @@ The overall architecture consists of:
 
 ---
 
-# ⚙️ Working Principle
+#  Working Principle
 
 ### Step 1 – Ring Oscillator Generation
 
@@ -202,7 +202,7 @@ Final PUF Response = 10110010
 
 ---
 
-# 🔢 Project Configuration
+#  Project Configuration
 
 The current design uses:
 
@@ -220,7 +220,7 @@ The current design uses:
 
 ---
 
-# 🔄 Control FSM
+#  Control FSM
 
 The PUF operation is controlled using a finite state machine.
 
@@ -257,44 +257,7 @@ Typical states include:
            └────────────┘
 ```
 
----
-
-# 📂 Repository Structure
-
-```text
-ring-oscillator-puf-fpga/
-│
-├── README.md
-│
-├── rtl/
-│   ├── ring_oscillator.v
-│   ├── ro_puf.v
-│   ├── counter.v
-│   ├── comparator.v
-│   ├── response_register.v
-│   └── puf_fsm.v
-│
-├── simulation/
-│   ├── tb_ring_oscillator.v
-│   └── tb_ro_puf.v
-│
-├── constraints/
-│   └── puf_constraints.xdc
-│
-├── docs/
-│   ├── architecture.png
-│   ├── block_diagram.png
-│   └── results.md
-│
-└── results/
-    ├── waveform.png
-    ├── utilization.png
-    └── timing.png
-```
-
----
-
-# 💻 Tools Used
+#  Tools Used
 
 - **Verilog HDL**
 - **Xilinx Vivado**
@@ -304,7 +267,7 @@ ring-oscillator-puf-fpga/
 
 ---
 
-# 🧪 Simulation
+#  Simulation
 
 The design is first verified through RTL simulation.
 
@@ -345,7 +308,7 @@ DONE
 
 ---
 
-# 🔧 FPGA Implementation
+#  FPGA Implementation
 
 The design is synthesized and implemented using **Xilinx Vivado**.
 
@@ -375,7 +338,7 @@ Therefore, appropriate synthesis and implementation constraints may be required 
 
 ---
 
-# ⚠️ Combinational Loop Consideration
+#  Combinational Loop Consideration
 
 Ring oscillators intentionally contain a feedback loop.
 
@@ -395,7 +358,7 @@ Therefore, implementation constraints and synthesis attributes may be required d
 
 ---
 
-# 📊 Expected Results
+#  Expected Results
 
 The project aims to obtain:
 
@@ -424,7 +387,7 @@ The actual response depends on the physical FPGA device and implementation.
 
 ---
 
-# 🔐 Applications
+#  Applications
 
 RO-PUFs can be used in:
 
@@ -439,7 +402,7 @@ RO-PUFs can be used in:
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 Possible extensions include:
 
@@ -456,7 +419,7 @@ Possible extensions include:
 
 ---
 
-# 📚 Key Concepts
+#  Key Concepts
 
 This project demonstrates practical understanding of:
 
@@ -476,7 +439,7 @@ This project demonstrates practical understanding of:
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 **Divya Sree**
 
@@ -486,12 +449,12 @@ JNTUH, Hyderabad
 
 ---
 
-# ⭐ Acknowledgement
+#  Acknowledgement
 
 This project was developed as an academic FPGA/VLSI project to study the implementation of hardware security primitives using FPGA technology.
 
 ---
 
-## 📜 License
+##  License
 
 This project is intended for educational and research purposes.
